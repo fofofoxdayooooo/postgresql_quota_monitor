@@ -1,0 +1,16 @@
+{
+  "user_limits": [
+    {
+      "user": "dev_user",
+      "soft_limit": 5000000000,
+      "hard_limit": 10000000000,
+      "manual_unlock": false
+    },
+    {
+      "user": "analytics_user",
+      "soft_limit": 20000000000,
+      "hard_limit": 30000000000,
+      "manual_unlock": true
+    }
+  ]
+}
