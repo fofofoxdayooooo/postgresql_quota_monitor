@@ -40,7 +40,7 @@
 #include <curl/curl.h>
 
 #define USER_LIMITS_FILE "/etc/postgres_monitor/user_limits.json"
-#define DB_CREDENTIALS_FILE "/etc/postgres_monitor/monitor_user.passwd"
+#define DB_CREDENTIALS_FILE "/root/etc/postgres_monitor/monitor_user.passwd"
 #define MONITOR_CONFIG_FILE "/etc/postgres_monitor/monitor_config.json"
 #define PROMETHEUS_FILE "/var/lib/prometheus/node-exporter/postgres_realtime_monitor.prom"
 #define PID_FILE "/var/run/postgres_realtime_monitor.pid"
