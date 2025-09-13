@@ -1,0 +1,14 @@
+[Unit]
+Description=PostgreSQL Real-time Storage Monitor Daemon
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/postgres_realtime_monitor_daemon/postgres_realtime_monitor_daemon
+User=postgres
+Group=postgres
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
