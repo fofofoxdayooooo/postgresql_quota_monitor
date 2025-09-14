@@ -1,5 +1,8 @@
 {
+  "prometheus_enabled": true,
   "slack_enabled": false,
-  "slack_webhook_url": "",
-  "prometheus_enabled": true
+  "slack_webhook_url": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX",
+  "mode": "shared_hosting",
+  "cache_ttl_seconds": 15,
+  "session_batch_size": 100
 }
