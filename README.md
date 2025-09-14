@@ -56,7 +56,7 @@ Example `user_limits.json`:
 }
 ```
 
-### 3. Daemon (postgres_realtime_monitor_daemon_flex.c)
+### 3. Daemon (postgres_realtime_monitor_daemon.c)
 
 Runs as a background service
 
