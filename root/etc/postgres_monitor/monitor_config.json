@@ -1,0 +1,16 @@
+{
+  "prometheus_enabled": true,
+  "slack_enabled": true,
+  "slack_webhook_url": "",
+  "mode": "shared_hosting",
+  "cache_ttl_seconds": 15,
+  "session_batch_size": 100,
+
+  // NEW: select()待ちの間隔（ミリ秒）
+  // デフォルト200ms。小さくすると検知は速いがCPU負荷が増える
+  "listen_poll_ms": 200,
+
+  // NEW: 定期スイープの間隔（秒）
+  // COPY進行中検知やトリガ不達の補完用。10秒〜60秒程度を推奨
+  "sweep_interval_seconds": 10
+}
